@@ -35,6 +35,7 @@ app.post('/product', (req, res) => {
       products.push(product);
       res.json({ message: `Product with ID ${id} added successfully.` });
     }
+    window.location.href = 'https://autobillingdesk.github.io/';
 });
 
 app.get('/product', (req, res) => {
